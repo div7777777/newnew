@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    overflow: hidden;
+    height: 915px;
+    background: linear-gradient(90deg,  #e3a3b3, #da0037);
+   
+}
+/* profil */
+.profil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;   
+}
+.prof{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 4px solid black;
+    padding: 2px;
+}
+/* title */
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.h1{
+    color: black;
+}
+/* social */
+.contenair{
+display: flex;
+justify-content: center;
+justify-content: center;
+flex-direction: row;
+
+}
+.contenair{
+    overflow: hidden;
+}
+.menu{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.facebook{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background: black;
+    border-radius: 0 50px 50px 0;
+    border: 4px solid #e3a;
+    height: 70px;
+    width: 200px;
+    animation: 7s infinite facebook;
+}
+@keyframes facebook{
+    50%{
+        transform: translateX(-200px);
+    }
+}
+.instagram{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background: black;
+    border-radius: 0 50px 50px 0;
+    border: 4px solid #e3a;
+    height: 70px;
+    width: 200px;
+    animation: 6s infinite instagram;
+}
+@keyframes instagram{
+    50%{
+        transform: translateX(-200px);
+    }
+}
+.twitter{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background: black;
+    border-radius: 0 50px 50px 0;
+    border: 4px solid #e3a;
+    height: 70px;
+    width: 200px;
+    animation: 5s infinite twitter;
+}
+@keyframes twitter{
+    50%{
+        transform: translateX(-200px);
+    }
+}
+.linkdin{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background: black;
+    border-radius: 0 50px 50px 0;
+    border: 4px solid #e3a;
+    height: 70px;
+    width: 200px;
+    animation: 4s infinite linkdin;
+}
+@keyframes linkdin{
+    50%{
+        transform: translateX(-200px);
+    }
+}
+.youtube{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background: black;
+    border-radius: 0 50px 50px 0;
+    border: 4px solid #e3a;
+    height: 70px;
+    width: 200px;
+    animation: 8s infinite youtube;
+}
+@keyframes youtube{
+    50%{
+        transform: translateX(-200px);
+    }
+}
+/* nam */
+.items{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 350px;
+}
+.face{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    animation: 5s infinite face;
+}
+@keyframes face{
+    50%{
+        transform: translateX(200px);
+    }
+}
+.inst{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    animation: 4s infinite inst;
+}
+@keyframes inst{
+    50%{
+        transform: translateX(200px);
+    }
+}
+.twit{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    animation: 3s infinite twit;
+}
+@keyframes twit{
+    50%{
+        transform: translateX(200px);
+    }
+}
+.link{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    animation: 2s infinite link;
+}
+@keyframes link{
+    50%{
+        transform: translateX(200px);
+    }
+}
+.yout{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    animation: 6s infinite yout;
+}
+@keyframes yout{
+    50%{
+        transform: translateX(200px);
+    }
+}
+.h2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: white;
+    border-radius: 50px 0 0 50px;
+    border: 4px solid #e3a;
+    background: black;
+    height: 62px;
+    width: 200px;
+
+}
+/* cont+adr */
+.adresse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a{
+    background: black;
+    border: 4px solid #e3a;
+    border-radius: 20px 50px 50px 20px;
+    height: 100px;
+    width: 100px;
+}
+.b{
+    background: black;
+    border: 4px solid #e3a;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.c{
+    background: black;
+    border: 4px solid #e3a;
+    border-radius: 50px 20px 20px 50px;
+    height: 100px;
+    width: 100px;
+}
+
+/*  */
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.h3{
+    color: #e3a;
+    font-size: 8px;
+}
+    
+  
+  
+
+
+

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="body">
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    overflow: hidden;
+    height: 915px;
+    background: linear-gradient(90deg,  #e3a3b3, #da0037);
+   
+}
+/* profil */
+.profil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;   
+}
+.prof{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 4px solid black;
+    padding: 2px;
+}
+/* title */
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.h1{
+    color: black;
+}
+/* social */
+.contenair{
+display: flex;
+justify-content: center;
+justify-content: center;
+flex-direction: row;
+
+}
+.contenair{
+    overflow: hidden;
+}
+.menu{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.facebook{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background: black;
+    border-radius: 0 50px 50px 0;
+    border: 4px solid #e3a;
+    height: 70px;
+    width: 200px;
+    animation: 7s infinite facebook;
+}
+@keyframes facebook{
+    50%{
+        transform: translateX(-200px);
+    }
+}
+.instagram{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background: black;
+    border-radius: 0 50px 50px 0;
+    border: 4px solid #e3a;
+    height: 70px;
+    width: 200px;
+    animation: 6s infinite instagram;
+}
+@keyframes instagram{
+    50%{
+        transform: translateX(-200px);
+    }
+}
+.twitter{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background: black;
+    border-radius: 0 50px 50px 0;
+    border: 4px solid #e3a;
+    height: 70px;
+    width: 200px;
+    animation: 5s infinite twitter;
+}
+@keyframes twitter{
+    50%{
+        transform: translateX(-200px);
+    }
+}
+.linkdin{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background: black;
+    border-radius: 0 50px 50px 0;
+    border: 4px solid #e3a;
+    height: 70px;
+    width: 200px;
+    animation: 4s infinite linkdin;
+}
+@keyframes linkdin{
+    50%{
+        transform: translateX(-200px);
+    }
+}
+.youtube{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background: black;
+    border-radius: 0 50px 50px 0;
+    border: 4px solid #e3a;
+    height: 70px;
+    width: 200px;
+    animation: 8s infinite youtube;
+}
+@keyframes youtube{
+    50%{
+        transform: translateX(-200px);
+    }
+}
+/* nam */
+.items{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 350px;
+}
+.face{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    animation: 5s infinite face;
+}
+@keyframes face{
+    50%{
+        transform: translateX(200px);
+    }
+}
+.inst{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    animation: 4s infinite inst;
+}
+@keyframes inst{
+    50%{
+        transform: translateX(200px);
+    }
+}
+.twit{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    animation: 3s infinite twit;
+}
+@keyframes twit{
+    50%{
+        transform: translateX(200px);
+    }
+}
+.link{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    animation: 2s infinite link;
+}
+@keyframes link{
+    50%{
+        transform: translateX(200px);
+    }
+}
+.yout{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    animation: 6s infinite yout;
+}
+@keyframes yout{
+    50%{
+        transform: translateX(200px);
+    }
+}
+.h2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: white;
+    border-radius: 50px 0 0 50px;
+    border: 4px solid #e3a;
+    background: black;
+    height: 62px;
+    width: 200px;
+
+}
+/* cont+adr */
+.adresse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a{
+    background: black;
+    border: 4px solid #e3a;
+    border-radius: 20px 50px 50px 20px;
+    height: 100px;
+    width: 100px;
+}
+.b{
+    background: black;
+    border: 4px solid #e3a;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.c{
+    background: black;
+    border: 4px solid #e3a;
+    border-radius: 50px 20px 20px 50px;
+    height: 100px;
+    width: 100px;
+}
+
+/*  */
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.h3{
+    color: #e3a;
+    font-size: 8px;
+}
+    </style>
+    <!-- profil -->
+    <div class="profil">
+        <img class="prof" src="https://img.icons8.com/glyph-neue/64/000000/share.png"/>    
+    </div>
+    <!-- title -->
+    <div class="title">
+     <h1 class="h1">Social LinK</h1>
+     <img class="symbole" src="https://img.icons8.com/ios/64/000000/centralized-network.png"/>
+    </div>
+    <!-- adresse+contscte -->
+    <div class="adresse">
+        <div class="adr">
+        <button class="a"><img class="conte" src="https://img.icons8.com/office/55/000000/whatsapp--v1.png"/></button>
+        <button class="b"><img class="mail" src="https://img.icons8.com/fluency/55/000000/mail.png"/></button>
+        <button class="c"><img class="maps" src="https://img.icons8.com/glyph-neue/55/ff6347/google-maps.png"/></button>
+        </div>
+    </div>
+    <!-- social -->
+    <div class="contenair">
+        <div class="menu">
+           <button class="facebook"><img src="https://img.icons8.com/color/64/000000/facebook-circled--v1.png"/></button>
+            <button class="instagram"><img src="https://img.icons8.com/color/64/000000/instagram-new--v1.png"/></button>
+            <button class="twitter"><img src="https://img.icons8.com/color/64/000000/twitter--v1.png"/></button>
+            <button class="linkdin"><img src="https://img.icons8.com/color/64/000000/linkedin.png"/></button>
+             <button class="youtube"><img src="https://img.icons8.com/color/64/000000/youtube-play.png"/></button>
+        </div>
+        <div class="items">
+            <div class="face"> <h2 class="h2"> Facebook</h2></div>
+            <div class="inst"><h2 class="h2"> Instagram</h2></div>
+            <div class="twit"><h2 class="h2"> Twitter</h2></div>
+            <div class="link"><h2 class="h2"> Linkdin</h2></div>
+            <div class="yout"> <h2 class="h2"> Youtube</h2></div>
+
+        </div>
+
+    </div>
+    <!--  -->
+    <footer class="footer">
+        <h3 class="h3">Copyrigt22 HD</h3> 
+
+    </footer>
+    
+</body>
+</html>
